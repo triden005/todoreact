@@ -1,0 +1,23 @@
+.laddo::after{
+    content:"";
+    opacity: 0;
+    border-right:2px solid black;
+    margin-left: 2px;
+    animation-name: anima;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1.2s;
+
+}
+@keyframes anima{
+    start {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
